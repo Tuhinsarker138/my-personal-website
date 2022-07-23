@@ -7,3 +7,15 @@ h1{
 .color-highlight{
     color: rgb(238, 66, 95);
 }
+p{
+    color: dimgray;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(238, 66, 95);
+    padding: 10px 20px;
+    border-radius: 5%;
+    color: white;
+    font-weight: 700;
+    
+}
