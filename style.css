@@ -1,4 +1,5 @@
 body{
+    margin: 0%;
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -18,4 +19,45 @@ p{
     color: white;
     font-weight: 700;
     
+}
+.half-width{
+    width: 40%;
+    float: left; 
+    margin-left: 5%;
+    padding: 2%; 
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 50px;
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.text-center{
+    text-align: center;
+}
+
+.blog{
+    padding: 15px 20px;
+    margin: 2% ;
+    width: 25%;
+    height: 30%;
+    display: inline-block;
+}
+.blog img{
+    width: 100%;
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
